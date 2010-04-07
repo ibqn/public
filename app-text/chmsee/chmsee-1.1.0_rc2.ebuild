@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -29,6 +29,5 @@ DEPEND="${RDEPEND}
 
 S=${WORKDIR}/${MY_P}
 
-#PATCHES=("${FILESDIR}/${P}-linker-cxx.patch")
 RESTRICT="mirror"
 DOCS="NEWS* README* AUTHORS ChangeLog*"
